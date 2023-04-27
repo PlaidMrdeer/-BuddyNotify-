@@ -13,3 +13,4 @@ In summary, if you want to increase interaction and socialization between player
 ## ✨Plugin functionality✨
 * Players can be individually mentioned using the "@" symbol (a notification will appear in the chat box to inform players who has been mentioned).
 * Players can be mentioned collectively using "@" symbol followed by "all" (a notification will appear in the chat box to inform everyone that they have been mentioned). Ops can use this feature up to 10 times per day, while non-ops can use it up to 3 times per day.
+* A notification sound will play when a player is mentioned using "@" symbol, to alert the player.
