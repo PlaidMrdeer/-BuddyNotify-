@@ -30,4 +30,5 @@ In summary, if you want to increase interaction and socialization between player
 ## ✨Some pictures of the plugin✨
 ![QQ图片20230427144842](https://user-images.githubusercontent.com/98594477/234782338-3a4e0346-eaff-483b-988f-2af60628d040.png)
 ![QQ图片20230427144915](https://user-images.githubusercontent.com/98594477/234782365-a41c9a8e-c47a-45a4-9003-7eb256be1004.png)
-<center>Finally, if you find any bugs with the plugin or have any features you would like to suggest, you can leave a comment on GitHub or Spigot.</center>
+
+# Finally, if you find any bugs with the plugin or have any features you would like to suggest, you can leave a comment on GitHub or Spigot.
