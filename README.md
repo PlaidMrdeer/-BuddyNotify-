@@ -22,7 +22,7 @@ In summary, if you want to increase interaction and socialization between player
 * To mention a player using "@" symbol, you can type "@ [player name]" in the chat box.
 * To mention all players using "@" symbol, you can type "@ all" in the chat box.
 ## ✨Plugin commands✨
-* /bnreload -- Reload configuration file
+* /bnreload -- Reload configuration file.
 ## ✨Plugin permissions✨
 * BuddyNotify.command.bnreload
   * description: Permissions to overload the config file
