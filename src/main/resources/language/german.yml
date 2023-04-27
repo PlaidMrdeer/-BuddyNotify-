@@ -1,0 +1,7 @@
+no_permissions: '&cDu hast keine Berechtigung!'
+
+reload_complete: '&6[&2BuddyNotify&6] &aNeu laden abgeschlossen.'
+
+format_error: '&cFormatfehler! Das Format sollte wie folgt sein: &4[@ <Spieler, den Sie erwähnen möchten>]'
+mention_quota: '&cDu hast dein Kontingent für heute aufgebraucht!'
+cannot_found_player: '&cDieser Spieler konnte nicht gefunden werden!'

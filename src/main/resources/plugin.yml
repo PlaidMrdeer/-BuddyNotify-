@@ -1,0 +1,14 @@
+name: BuddyNotify
+version: '${version}'
+main: com.plaidmrdeer.bn.BuddyNotify
+api-version: 1.13
+author: PlaidMrdeer
+description: This plugin allows players to @ other players within the game.
+commands:
+  bnreload:
+    description: Reload the config file.
+
+permissions:
+  BuddyNotify.command.bnreload:
+    description: Permissions to overload the config file
+    default: op

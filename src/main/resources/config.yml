@@ -1,0 +1,30 @@
+#The plugin has three built-in languages: Chinese, English and German
+#If you don't have the language you want, you can also customize the language
+#1.Copy one from the built-in language file
+#2.Change its file name to the name you want
+#3.Change file content
+#4.Go to "config.yml" and change the "language" to your language file
+language: 'english'
+
+#Enable plugin logo.
+logo: true
+
+#Notification for players after being mentioned (@).
+prompt:
+
+  #Content of notification for players after being mentioned (@).
+  message: '&l&b>>  &rPlayer &l&d%player% &rmentioned &l&e%target_player% &r(@)'
+
+  #Notification content after a player mentions all players (@all)
+  all_message: '&l&b>>  &rPlayer &l&d%player% &rmentioned &r&l&eall players &r(@all)'
+
+  #Notification sound for players after being mentioned (@).
+  sound:
+    #Volume of the notification sound.
+    volume: 1.0
+
+    #Pitch of the notification sound.
+    pitch: 2.0
+
+    #Type of notification sound, please search for ID on your own.
+    id: 'ENTITY_PLAYER_LEVELUP'

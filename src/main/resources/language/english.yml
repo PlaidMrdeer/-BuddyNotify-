@@ -1,0 +1,7 @@
+no_permissions: '&cYou do not have permission!'
+
+reload_complete: '&6[&2BuddyNotify&6] &aReload complete.'
+
+format_error: '&cFormat error! the format should be &4[@ <player you want to mention>]'
+mention_quota: '&cYou have used up your quota for today!'
+cannot_found_player: '&cThis player cannot be found!'
