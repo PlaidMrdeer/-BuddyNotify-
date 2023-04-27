@@ -10,3 +10,6 @@ BuddyNotify also includes additional features such as customized notification me
 Furthermore, BuddyNotify is very easy to install and use. Simply download and add it to your server's plugin directory. Then, you can configure the plugin according to your needs and immediately start enjoying a more social and friendly Minecraft gaming experience.
 
 In summary, if you want to increase interaction and socialization between players, BuddyNotify is a great plugin choice. It can make your server more interesting and friendly, and help your players easily connect with each other.
+## ✨Plugin functionality✨
+* Players can be individually mentioned using the "@" symbol (a notification will appear in the chat box to inform players who has been mentioned).
+* Players can be mentioned collectively using "@" symbol followed by "all" (a notification will appear in the chat box to inform everyone that they have been mentioned). Ops can use this feature up to 10 times per day, while non-ops can use it up to 3 times per day.
