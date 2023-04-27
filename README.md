@@ -17,3 +17,6 @@ In summary, if you want to increase interaction and socialization between player
 ## ✨Additional features of the plugin✨
 * All notification messages and sounds can be customized, and placeholders (%player% and %target_player%) are provided. %player% refers to the player who used the "@" symbol to mention another player, while %target_player% refers to the player being mentioned.
 * The plugin provides language files by default, including Chinese, English, and German. If your desired language is not available, you can customize the language file according to the instructions in the configuration file
+## ✨How to use the plugin✨
+* To mention a player using "@" symbol, you can type [@ <player name>] in the chat box.
+* To mention all players using "@" symbol, you can type [@ all] in the chat box.
