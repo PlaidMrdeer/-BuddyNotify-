@@ -27,3 +27,6 @@ In summary, if you want to increase interaction and socialization between player
 * BuddyNotify.command.bnreload
   * description: Permissions to overload the config file
   * default: op
+## ✨Some pictures of the plugin✨
+![QQ图片20230427144842](https://user-images.githubusercontent.com/98594477/234782338-3a4e0346-eaff-483b-988f-2af60628d040.png)
+![QQ图片20230427144915](https://user-images.githubusercontent.com/98594477/234782365-a41c9a8e-c47a-45a4-9003-7eb256be1004.png)
