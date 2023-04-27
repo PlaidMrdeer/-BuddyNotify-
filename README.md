@@ -1,3 +1,4 @@
+![BuddyNotify](https://user-images.githubusercontent.com/98594477/234777255-7d742633-1db4-4b74-8759-28cdd9fb71c8.png)
 # ✨BuddyNotify✨
 ⚡️Encourage players to @ each other in the game!⚡️
 ## ✨Introduction to plugins✨
