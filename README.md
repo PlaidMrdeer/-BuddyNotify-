@@ -23,6 +23,6 @@ In summary, if you want to increase interaction and socialization between player
 ## ✨Plugin commands✨
 * /bnreload -- Reload configuration file.
 ## ✨Plugin permissions✨
-* BuddyNotify.command.bnreload:
+* BuddyNotify.command.bnreload
   * description: Permissions to overload the config file
   * default: op
