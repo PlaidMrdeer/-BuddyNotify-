@@ -31,35 +31,36 @@ In summary, if you want to increase interaction and socialization between player
   * config.yml:
     ```yaml
     #The plugin has three built-in languages: Chinese, English and German
-#If you don't have the language you want, you can also customize the language
-#1.Copy one from the built-in language file
-#2.Change its file name to the name you want
-#3.Change file content
-#4.Go to "config.yml" and change the "language" to your language file
-language: 'english'
+    #If you don't have the language you want, you can also customize the language
+    #1.Copy one from the built-in language file
+    #2.Change its file name to the name you want
+    #3.Change file content
+    #4.Go to "config.yml" and change the "language" to your language file
+    language: 'english'
 
-#Enable plugin logo.
-logo: true
+    #Enable plugin logo.
+    logo: true
 
-#Notification for players after being mentioned (@).
-prompt:
+    #Notification for players after being mentioned (@).
+    prompt:
 
-  #Content of notification for players after being mentioned (@).
-  message: '&l&b>>  &rPlayer &l&d%player% &rmentioned &l&e%target_player% &r(@)'
+      #Content of notification for players after being mentioned (@).
+      message: '&l&b>>  &rPlayer &l&d%player% &rmentioned &l&e%target_player% &r(@)'
 
-  #Notification content after a player mentions all players (@all)
-  all_message: '&l&b>>  &rPlayer &l&d%player% &rmentioned &r&l&eall players &r(@all)'
+      #Notification content after a player mentions all players (@all)
+      all_message: '&l&b>>  &rPlayer &l&d%player% &rmentioned &r&l&eall players &r(@all)'
 
-  #Notification sound for players after being mentioned (@).
-  sound:
-    #Volume of the notification sound.
-    volume: 1.0
+      #Notification sound for players after being mentioned (@).
+      sound:
+        #Volume of the notification sound.
+        volume: 1.0
 
-    #Pitch of the notification sound.
-    pitch: 2.0
+        #Pitch of the notification sound.
+        pitch: 2.0
 
-    #Type of notification sound, please search for ID on your own.
-    id: 'ENTITY_PLAYER_LEVELUP'
+        #Type of notification sound, please search for ID on your own.
+        id: 'ENTITY_PLAYER_LEVELUP'
+      ```
 ## ✨Some pictures of the plugin✨
 ![QQ图片20230427144842](https://user-images.githubusercontent.com/98594477/234782338-3a4e0346-eaff-483b-988f-2af60628d040.png)
 ![QQ图片20230427144915](https://user-images.githubusercontent.com/98594477/234782365-a41c9a8e-c47a-45a4-9003-7eb256be1004.png)
