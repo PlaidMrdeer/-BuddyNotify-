@@ -49,9 +49,9 @@ public final class HintListener implements Listener {
             }
 
             String allPrompt = instance.getConfig().getString("prompt.all_message");
-            Bukkit.broadcastMessage(
-                    instance.setStyle(allPrompt, rawPlayer.getName())
-            );
+            instance.addPlaceholder("%all_player%", rawPlayer.getName());
+            Bukkit.broadcastMessage(instance.setStyle(allPrompt));
+
             for (Player player : Bukkit.getOnlinePlayers()) {
                 playSound(player);
             }
@@ -65,9 +65,9 @@ public final class HintListener implements Listener {
         }
 
         String prompt = instance.getConfig().getString("prompt.message");
-        Bukkit.broadcastMessage(
-                instance.setStyle(prompt, rawPlayer.getName(), target.getName())
-        );
+        instance.addPlaceholder("%player%", rawPlayer.getName());
+        instance.addPlaceholder("%target_player%", target.getName());
+        Bukkit.broadcastMessage(instance.setStyle(prompt));
 
         playSound(target);
     }

@@ -1,15 +1,18 @@
 package com.plaidmrdeer.bn;
 
+import com.plaidmrdeer.bn.bstats.Metrics;
 import com.plaidmrdeer.bn.commands.ReloadCommand;
 import com.plaidmrdeer.bn.config.data_config.DataManager;
 import com.plaidmrdeer.bn.config.language_config.LanuageManager;
 import com.plaidmrdeer.bn.events.HintListener;
+import com.plaidmrdeer.bn.update.UpdateCheck;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.bukkit.scheduler.BukkitScheduler;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.logging.Logger;
 
 /**
@@ -25,6 +28,20 @@ public final class BuddyNotify extends JavaPlugin {
      * 操作插件语言的管理类
      */
     private LanuageManager lanuageManager;
+
+    /**
+     * 更新检测
+     */
+    private UpdateCheck updateCheck;
+
+    /**
+     * 占位符存储
+     */
+    private final Map<String, String> placeholder = new HashMap<>();
+
+    public void addPlaceholder(String place, String var) {
+        placeholder.put(place, var);
+    }
 
     public DataManager getDataManager() {
         return dataManager;
@@ -43,24 +60,18 @@ public final class BuddyNotify extends JavaPlugin {
     /**
      * 设置传进来的字符串的格式（颜色，占位符等）
      */
-    public String setStyle(String message, String... player) {
-        return setColor(setPlaceholder(message, player));
+    public String setStyle(String message) {
+        return setColor(setPlaceholder(message));
     }
 
     private String setColor(String message) {
         return ChatColor.translateAlternateColorCodes('&', message);
     }
 
-    private String setPlaceholder(String message, String... player) {
-        if (player.length == 0) {
-            return message;
+    private String setPlaceholder(String message) {
+        for (Map.Entry<String, String> place : placeholder.entrySet()) {
+            message = message.replace(place.getKey(), place.getValue());
         }
-        message = message.replace("%player%", player[0]);
-
-        if (player.length == 1) {
-            return message;
-        }
-        message = message.replace("%target_player%", player[1]);
 
         return message;
     }
@@ -104,6 +115,7 @@ public final class BuddyNotify extends JavaPlugin {
     public void onLoad() {
         dataManager = new DataManager(this);
         lanuageManager = new LanuageManager(this);
+        updateCheck = new UpdateCheck(this);
     }
 
     @Override
@@ -124,6 +136,10 @@ public final class BuddyNotify extends JavaPlugin {
 
         dataManager.refreshNumber();
 
+        int pluginId = 18391;
+        Metrics metrics = new Metrics(this, pluginId);
+
+        updateCheck.updateCheck();
     }
 
     @Override

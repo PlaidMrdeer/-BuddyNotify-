@@ -9,6 +9,9 @@ language: 'english'
 #Enable plugin logo.
 logo: true
 
+#Enable update detection.
+update: true
+
 #Notification for players after being mentioned (@).
 prompt:
 
@@ -16,7 +19,7 @@ prompt:
   message: '&l&b>>  &rPlayer &l&d%player% &rmentioned &l&e%target_player% &r(@)'
 
   #Notification content after a player mentions all players (@all)
-  all_message: '&l&b>>  &rPlayer &l&d%player% &rmentioned &r&l&eall players &r(@all)'
+  all_message: '&l&b>>  &rPlayer &l&d%all_player% &rmentioned &r&l&eall players &r(@all)'
 
   #Notification sound for players after being mentioned (@).
   sound:
