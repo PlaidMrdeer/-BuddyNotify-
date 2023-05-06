@@ -40,6 +40,9 @@ In summary, if you want to increase interaction and socialization between player
 
     #Enable plugin logo.
     logo: true
+    
+    #Enable update detection.
+    update: true
 
     #Notification for players after being mentioned (@).
     prompt:
